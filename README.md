@@ -1,8 +1,10 @@
-# sparse_gp
+ sparse_gp
 This is the repository for my MSc thesis for the CSML at UCL with title *A Framework for Evaluating Sparse
 Gaussian Processes*. 
 
 The theme of the thesis is sparse Gaussian processes and is based on previous work of Titsias (2009), Hensman et al, (2013), and Ghahramani and Snelson (2006).
+
+My aim is to continue working on this as I have identified aspects on SVI that I want to test and might later improve. Also, I would like to try and incorporate the SVI model on the GPML library.
 
 **From the abstract:**
 
@@ -13,8 +15,24 @@ Conditionals (FITC), the Variational Free Energy (VFE), and the Stochastic Varia
 We perform a series of Gaussian process regression analysis tests on two datasets, one large with over a million observations 
 (air traffic dataset) and a medium one with 400,000 observations (kin40k). Our aim is to predict, with the minimum error, 
 the flight delay in the first dataset and the distance between a robotic arm and its target object in the second dataset. 
+
 We show that the Stochastic Variational Inference model outperforms all the other sparse solutions in both the average
-mean squared error (MSE) and the run time, with computational cost O($m^3$) where $m$ the inducing points of the model.
+mean squared error (MSE) and the run time, with computational cost O(m^3) where m the inducing points of the model.
+
+**Code:**
+
+The code includes files written in MATLAB and in Python. 
+Specifically, the Fully Independent Training Conditionals (FITC) and the Variational Free Energy (VFE) models were ran on GPML Toolbox on MATLAB. Thus, for the user to run them is necessary to download the GPML files from:
+http://www.gaussianprocess.org/gpml/code/matlab/doc/
+
+For the Stochastic Variational Inference (SVI) we used the Python library GPflow:
+http://gpflow.readthedocs.io/en/latest/
+
+The parts are:
+1) FITC and VFE on air delays dataset (MATLAB)
+2) FITC and VFE on kin40k dataset (MATLAB)
+3) SVI on air delays dataset (Python)
+4) SVI on kin40k dataset (Python)
 
 **Bibliography:**
 
