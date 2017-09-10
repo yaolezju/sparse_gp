@@ -5,7 +5,7 @@ The theme of the thesis is sparse Gaussian processes and is based on previous wo
 
 
 
-Bibliography:
+**Bibliography:**
 
 Ghahramani, Z. and Snelson, E. (2006). Sparse Gaussian Processes using Pseudo-inputs. Advances in Neural Information Processing Systems, 19, pp.1257–1264.
 
