@@ -1,4 +1,4 @@
- sparse_gp
+# sparse_gp
 This is the repository for my MSc thesis for the CSML at UCL with title *A Framework for Evaluating Sparse
 Gaussian Processes*. 
 
