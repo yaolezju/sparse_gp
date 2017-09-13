@@ -30,17 +30,17 @@ http://gpflow.readthedocs.io/en/latest/
 
 The parts are:
 1. Folder (AirlineData):
-    * PreprocessingASA.m: Data preprocessing in MATLAB for the creation of the covariate matrix X.
-    * GP_BigDataASA_SD.m: Code to run the Subset of Data (SD) method.
-    * GP_BigDataASA.m: Code to run the FITC and VFE methods.
-    * GraphsandPlots.m: Code to generate the graphs of all three methods (SD, FITC, VFE).
-    * SVI.py: Code for the SVI from Hensman et al, (2013) on the airline data.
+    * *PreprocessingASA.m*: Data preprocessing in MATLAB for the creation of the covariate matrix X.
+    * *GP_BigDataASA_SD.m*: Code to run the Subset of Data (SD) method.
+    * *GP_BigDataASA.m*: Code to run the FITC and VFE methods.
+    * *GraphsandPlots.m*: Code to generate the graphs of all three methods (SD, FITC, VFE).
+    * *SVI.py*: Code for the SVI from Hensman et al, (2013) on the airline data.
 2. Folder (kin40k):
     * For the kin40k method we performed the exact same steps, except for the preprocessing were we did not needed it. We will upload the code on a later time.
 
 Steps:
-* For the Airline Data: To run the FITC, VFE and Subset of Data (SD) that were presented on the paper initially we execute the PreprocessingASA.m. Then we run the GP_BigDataASA_SD.m to perform the SD regression computations. Following, we run the GP_BigDataASA.m for the FITC and VFE tests. Afterwords, we generate the graphs by running the GraphsandPlots.m. Finally, run the SVI.py for the SVI method.
-* For the kin40k Data: We follow the same steps except the preprocessing, as the data have already been preprocessed. We will update the folder with specific tailored codes for kin40k in due time.
+* *For the Airline Data*: To run the FITC, VFE and Subset of Data (SD) that were presented on the paper initially we execute the PreprocessingASA.m. Then we run the GP_BigDataASA_SD.m to perform the SD regression computations. Following, we run the GP_BigDataASA.m for the FITC and VFE tests. Afterwords, we generate the graphs by running the GraphsandPlots.m. Finally, run the SVI.py for the SVI method.
+* *For the kin40k Data*: We follow the same steps except the preprocessing, as the data have already been preprocessed. We will update the folder with specific tailored codes for kin40k in due time.
 
 **Bibliography:**
 
