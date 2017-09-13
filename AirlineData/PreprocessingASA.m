@@ -6,11 +6,11 @@
 
 % [1] Ghahramani, Z. and Snelson, E. (2006). Sparse Gaussian Processes 
 %     using Pseudo-inputs. Advances in Neural Information Processing 
-%     Systems, 19, pp.1257–1264.
+%     Systems, 19, pp.1257â€“1264.
 %
 % [2] Titsias, M. (2009). Variational Learning of Inducing Variables in 
 %     Sparse Gaussian Processes. Artificial Intelligence and Statistics 
-%     12, 5, pp.567–574.
+%     12, 5, pp.567â€“574.
 %
 % The link for the dataset is: 
 % http://stat-computing.org/dataexpo/2009/the-data.html
