@@ -19,6 +19,7 @@ yz = Xtest(:,9);
 n = size(x,1);
 testn = size(xz,1);
 
+
 % I.  COVARIANCE MATRIX APROXIMATION (Inducing points)
 % Ia. GP with exact Gaussian inference or VB
 %     SE covariance function or SE ARD
@@ -37,6 +38,8 @@ likfunc = @likGauss;              % Gaussian likelihood
 % by optimising the log marginal likelihood. 
 % So we set the struct of the hyperparameters, the gp function, the number 
 % of function evaluation (100), and the mean, cov, and likeli functions.
+% The covariance hyperparameters should be 8 (for the dimensions) + 1 for
+% the signal noise + 1 for the covNoise.
 hyp = struct('mean', [], 'cov', [0 0 0 0 0 0 0 0 0 log(0.1)], 'lik', -1);
 
 
