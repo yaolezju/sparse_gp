@@ -36,7 +36,7 @@ The parts are:
     * *GraphsandPlots.m*: Code to generate the graphs of all three methods (SD, FITC, VFE).
     * *SVI.py*: Code for the SVI from Hensman et al, (2013) on the airline data.
 2. Folder (kin40k):
-    * For the kin40k method we performed the exact same steps, except for the preprocessing were we did not needed it. We will upload the code on a later time.
+    * For the kin40k method we performed the exact same steps, except for the preprocessing were we did not need it. We will upload the code on a later time.
 
 Steps:
 * *For the Airline Data*: To run the FITC, VFE and Subset of Data (SD) that were presented on the paper initially we execute the PreprocessingASA.m. Then we run the GP_BigDataASA_SD.m to perform the SD regression computations. Following, we run the GP_BigDataASA.m for the FITC and VFE tests. Afterwords, we generate the graphs by running the GraphsandPlots.m. Finally, run the SVI.py for the SVI method.
